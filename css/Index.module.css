@@ -1,0 +1,53 @@
+.home {
+    text-align: center;
+    white-space: nowrap;
+    height: 100%;
+}
+
+.home:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+
+.home-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 720px;
+}
+
+.title-wrapper {
+    padding:20px;
+    border:1px solid;
+}
+
+.title {
+    font-size: 1em;
+    font-style:italic; 
+    text-align: center;
+}
+
+.logo-wrapper{
+    display: flex; 
+    align-items:center;
+}
+
+.logo-wrapper img {
+    height:40px
+}
+
+.logo-text {
+    font-family: 'Core-Sans-45'; 
+    font-size: 1.5em; 
+    letter-spacing: -1.5px;
+}
+
+@font-face {
+    font-family: 'Core-Sans-45';
+    src:  url('/coresansa45regular-webfont.woff2') format('woff2'),
+    url('/coresansa45regular-webfont.woff') format('woff');
+}
